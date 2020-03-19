@@ -15,7 +15,6 @@ const flash = require("connect-flash");
 const passport = require("./auth/passport");
 const ensureLogin = require("connect-ensure-login");
 const bcrypt = require("bcrypt");
-const flash = require("connect-flash");
 
 mongoose
   .connect("mongodb://localhost/passport-roles", { useNewUrlParser: true })
